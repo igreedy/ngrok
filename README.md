@@ -119,8 +119,9 @@ GOOS=windows GOARCH=amd64 ./make.bash
 cd /usr/local/ngrok/
 GOOS=windows GOARCH=amd64 make release-client
 ```
+#### 运行与使用
 
-###### 运行ngrok
+###### 服务器server运行ngrok
 ```bash
 cd /usr/local/ngrok
 nohup ./bin/ngrokd -tlsKey="assets/server/tls/snakeoil.key" -tlsCrt="assets/server/tls/snakeoil.crt" -domain="my.domain.com"  -httpAddr=":7788" &
@@ -151,4 +152,3 @@ ngrok.exe -config=ngrok.cfg start mstsc
 >这时候你就可以用别的电脑打开mstsc 远程桌面来尝试连接了。
 
 ![](https://raw.githubusercontent.com/igreedy/igreedy.github.io/master/images/go/3.png)
-
