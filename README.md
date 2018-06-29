@@ -63,7 +63,7 @@ iptables -nL
 
 #### 服务器server上安装ngrok
 ###### 下载ngrok安装包
-完整的ngrok下载包](https://github.com/igreedy/ngrok/raw/master/ngrok.tar.gz)
+[完整的ngrok下载包](https://github.com/igreedy/ngrok/raw/master/ngrok.tar.gz)
 
 >如果下载官方的安装包，在之后执行make release-server 可能会报错。
 因为不能翻墙什么缘故。不能在ngrok/src目录下下载github.com 和gopkg.in 里面的数据。
