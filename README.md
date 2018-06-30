@@ -131,6 +131,7 @@ nohup ./bin/ngrokd -tlsKey="assets/server/tls/snakeoil.key" -tlsCrt="assets/serv
 >将服务器server的/usr/local/ngrok/bin/windows_amd64/ngrok.exe的 ngrok.exe 文件拷贝到工作电脑computer的E盘文件夹ngrok目录下
 然后在这个e:\ngrok\的目录下 新建一个 ngrok.cfg 和 ngrok.bat 两个文件。
 用notepad++编辑 ngrok.cfg文件
+
 ```
 server_addr: "my.domain.com:4443"
 trust_host_root_certs: false
