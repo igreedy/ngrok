@@ -34,6 +34,12 @@ source /etc/profile
 //检测是否安装成功go
 go version
 ```
+##### 工作电脑computer的环境准备
+
+![](https://raw.githubusercontent.com/igreedy/igreedy.github.io/master/images/go/0.png)
+
+
+
 ##### 域名的准备
 >远程桌面环境搭建需要一个域名，这个可在[godaddy](www.godaddy.coom)自行购买。
 我买的域名是domain.com。然后ngrok环境搭建用的域名是**my.domain.com**。
